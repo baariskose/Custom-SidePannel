@@ -1,0 +1,39 @@
+<mvc:View controllerName="smod.sidepannel.customsidepannel.controller.InitialView"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m"
+    xmlns:smod="smod.sidepannel.customsidepannel.ui"
+    xmlns:l="sap.ui.layout">
+    <Page id="page" title="{i18n>title}">
+        <content >
+                <smod:CustomSidePannel >
+                    <smod:items >
+                        <smod:CustomSidePannelItem  icon = "sap-icon://physical-activity" text="xxxx">
+                            <VBox>
+                                <Text text="xxx"/>
+                                <Button
+                                   text ="Press Me"
+                                />
+                                  <Button
+                                   text ="Press Me2"
+                                />
+                            </VBox>
+                        </smod:CustomSidePannelItem>
+                         <smod:CustomSidePannelItem  icon = "sap-icon://building" text="yyyy">
+                            <VBox>
+                                <Text text="yyy"/>
+                                 <Input placeholder="XXYYYYX"   />
+                            </VBox>
+                        </smod:CustomSidePannelItem>
+                         <smod:CustomSidePannelItem  icon = "sap-icon://play" text="zzzz">
+                            <VBox>
+                                <Text text="zzz"/>
+                                <Input placeholder="XXX"   >
+                                    
+                                </Input>
+                            </VBox>
+                        </smod:CustomSidePannelItem>
+                    </smod:items>
+                </smod:CustomSidePannel>
+        </content>
+    </Page>
+</mvc:View>

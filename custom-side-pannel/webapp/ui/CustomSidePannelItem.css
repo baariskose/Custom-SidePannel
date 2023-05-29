@@ -1,0 +1,68 @@
+
+.smod-sidepannel-item-main{
+    list-style-type: disc;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 3.125rem;
+    width: 100%;
+    padding: 0.1875rem 0.75rem;
+    gap: 0.75rem;
+    cursor: pointer;
+   
+}
+.smod-sidepannel-item-main  :hover{
+    background-color: #eaecee;
+    
+}
+
+.smod-sidepannel-item-main-active{
+    background-color: #0070f2;
+    list-style-type: disc;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 3.125rem;
+    width: 100%;
+    padding: 0.1875rem 0.75rem;
+    gap: 0.75rem;
+    cursor: pointer;
+}
+
+.smod-sidepannel-item-icon  .sapUiIcon {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    background-color: #fff;
+    color: #0070f2;
+    width: 2.75rem;
+    height: 2.75rem;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 0.0625rem solid #0070f2;
+    cursor: pointer;
+}
+.sapUiIcon {
+    cursor: default;
+    text-align: center;
+    display: inline-block;
+    vertical-align: baseline;
+    line-height: 1;
+    position: relative;
+}
+
+.smod-sidepannel-item-text{
+
+    font-family: "72-SemiboldDuplex","72-SemiboldDuplexfull","72","72full",Arial,Helvetica,sans-serif;
+    font-size: .875rem;
+    font-style: normal;
+    font-weight: 600;
+    color: #1d2d3e;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
